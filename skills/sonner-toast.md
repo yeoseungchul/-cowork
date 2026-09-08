@@ -1,3 +1,15 @@
+---
+name: sonner-toast
+description: React 애플리케이션에서 sonner 라이브러리를 사용해 세련된 토스트(팝업) 알림을 표시하는 스킬
+version: "2.0.8"
+source: https://github.com/emilkowalski/sonner
+tags:
+  - react
+  - toast
+  - ui
+  - notification
+---
+
 # 스킬: sonner 토스트 알림 사용법
 
 > **출처:** https://github.com/emilkowalski/sonner  
