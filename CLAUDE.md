@@ -140,3 +140,33 @@ git push -u origin [브랜치명]
 - 신규 스킬 생성 수
 - 기존 스킬 정제 수
 - 메모리 업데이트 항목 수
+
+---
+
+## 💡 Karpathy 코딩 가이드라인 (플러그인)
+
+> 출처: [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)  
+> Andrej Karpathy의 LLM 코딩 실수 관찰에서 도출한 행동 지침.  
+> 스킬 파일: `.claude/skills/karpathy-guidelines/SKILL.md`
+
+### 1. 코딩 전 먼저 생각하라 (Think Before Coding)
+가정하지 말고, 혼란을 숨기지 말며, 트레이드오프를 표면화한다.
+- 구현 전 가정을 명시적으로 서술한다.
+- 여러 해석이 가능하면 제시하고 선택지를 보여준다.
+- 불명확한 부분이 있으면 멈추고 질문한다.
+
+### 2. 단순함 우선 (Simplicity First)
+요청한 것만 최소한의 코드로 해결한다.
+- 요청하지 않은 기능, 추상화, 유연성은 추가하지 않는다.
+- 200줄로 쓴 코드가 50줄로 가능하면 다시 쓴다.
+
+### 3. 외과적 변경 (Surgical Changes)
+반드시 필요한 부분만 수정한다.
+- 관련 없는 코드를 "개선"하지 않는다.
+- 기존 스타일을 유지한다.
+- 내 변경으로 발생한 미사용 코드만 제거한다.
+
+### 4. 목표 지향 실행 (Goal-Driven Execution)
+성공 기준을 정의하고 검증될 때까지 반복한다.
+- 작업을 검증 가능한 목표로 변환한다.
+- 다단계 작업은 단계별 계획과 검증 체크포인트를 명시한다.
