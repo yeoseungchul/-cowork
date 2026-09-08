@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "echo '=== 서진 에이전트 부팅 ===' && echo '[메모리 로드]' && echo '- SOUL.md: 페르소나 로드' && echo '- memory/user-profile.md: 사용자 모델 로드' && echo '- memory/patterns.md: 학습 패턴 로드' && echo '- memory/context.md: 작업 컨텍스트 로드' && echo '- GROWTH.md: 성장 이력 로드' && echo '[현재 스킬 라이브러리]' && ls skills/ 2>/dev/null | grep -v README | sed 's/^/  - /' && echo '[준비 완료] 서진 에이전트가 활성화되었습니다.'"
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "echo '=== 세션 종료 알림 ===' && echo '!  skills/memory-update-protocol.md 프로토콜에 따라' && echo '   memory/, sessions/, GROWTH.md를 업데이트하고 커밋/푸시하세요.'"
+      }
+    ]
+  }
+}
