@@ -1,0 +1,23 @@
+{
+  "name": "-cowork",
+  "version": "1.0.0",
+  "description": "> (주)서진항공 · (주)서진월드투어 대표이사를 위한 **성장형 AI 에이전트** 환경.   > [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) 폐쇄형 학습 루프 원칙 기반.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeoseungchul/-cowork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeoseungchul/-cowork/issues"
+  },
+  "homepage": "https://github.com/yeoseungchul/-cowork#readme",
+  "dependencies": {
+    "sonner": "^2.0.8"
+  }
+}
