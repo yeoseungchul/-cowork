@@ -12,6 +12,7 @@
 | [document-writing.md](./document-writing.md) | 서진 스타일 문서 작성 절차 | 2026-09-08 | 0 |
 | [travel-product-planning.md](./travel-product-planning.md) | 여행 상품 기획 절차 | 2026-09-08 | 0 |
 | [memory-update-protocol.md](./memory-update-protocol.md) | 세션 종료 시 메모리 업데이트 절차 | 2026-09-08 | 0 |
+| [draft-friendship-city-proposal.md](./draft-friendship-city-proposal.md) | 우호협력 교류 제안서 작성 절차 | 2026-10-03 | 1 |
 
 ---
 
